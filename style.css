@@ -319,7 +319,7 @@ main h2 {
     font-size: 20px;
 }
 
-.sec2-div1 button {
+.btnor {
     width: 229.92857360839844px;
     height: 62px;
     border-radius: 100px;
@@ -329,7 +329,7 @@ main h2 {
     color: var(--color-weiß);
 }
 
-.sec2-div1 button:first-of-type {
+.btnor.active {
     background: var(--gradient-orange);
 }
 
@@ -408,7 +408,7 @@ main h2 {
     border: solid var(--color-grau);
 }
 
-.btn28 {
+.btn22.active {
     width: 40px;
     height: 40px;
     border-width: 1.5px;
@@ -418,18 +418,6 @@ main h2 {
     color: var(--color-weiß);
     background: var(--gradient-orange);
     border: none;
-}
-
-.btn33 {
-    width: 40px;
-    height: 40px;
-    border-width: 1.5px;
-    border-radius: 50%;
-    font-weight: 400;
-    font-size: 14.32px;
-    color: var(--color-grau);
-    background-color: var(--color-beg);
-    border: solid var(--color-grau);
 }
 
 .btn-plus {

@@ -17,3 +17,31 @@ window.addEventListener('wheel', function () {
     }
 
 });
+
+
+const btns = document.querySelectorAll('.btn22');
+
+btns.forEach(function (btn22) {
+    btn22.addEventListener('click', function () {
+
+        // прибираємо active з усіх
+        btns.forEach(b => b.classList.remove('active'));
+
+        // додаємо active на натиснуту
+        btn22.classList.add('active');
+    });
+});
+
+
+let name = document.querySelectorAll('.btnor');
+
+name.forEach(function (btnor) {
+    btnor.addEventListener('click', function () {
+
+        // прибираємо active з усіх
+        name.forEach(b => b.classList.remove('active'));
+
+        // додаємо active на натиснуту
+        btnor.classList.add('active');
+    });
+});
