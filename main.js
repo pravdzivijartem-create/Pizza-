@@ -1,6 +1,5 @@
 const main = document.querySelector('.main');
 
-
 window.addEventListener('wheel', function () {
     main.classList.add('blurred');
 
@@ -18,7 +17,6 @@ window.addEventListener('wheel', function () {
 
 });
 
-
 const btns = document.querySelectorAll('.btn22');
 
 btns.forEach(function (btn22) {
@@ -31,7 +29,6 @@ btns.forEach(function (btn22) {
         btn22.classList.add('active');
     });
 });
-
 
 let name = document.querySelectorAll('.btnor');
 

@@ -250,20 +250,6 @@ main h2 {
     animation: oo 1s linear infinite;
 }
 
-@keyframes oo {
-    0% {
-        transform: translateY(0px);
-    }
-
-    50% {
-        transform: translateY(50px);
-    }
-
-    100% {
-        transform: translateY(0px);
-    }
-}
-
 .sec1-div2-imggroß {
     position: relative;
     left: 25px;
@@ -273,8 +259,8 @@ main h2 {
 
 .sec1-div2-img1 {
     position: absolute;
-    top: -50px;
-    right: -130px;
+    top: 40px;
+    right: -10px;
     animation: tuu 0.5s linear infinite;
 }
 
@@ -294,8 +280,8 @@ main h2 {
 
 .sec1-div2-img2 {
     position: absolute;
-    top: 540px;
-    right: 310px;
+    top: 630px;
+    right: 430px;
     animation: tuu 0.5s linear infinite;
 }
 
