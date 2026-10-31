@@ -3,7 +3,6 @@ const main = document.querySelector('.main');
 window.addEventListener('wheel', function () {
     main.classList.add('blurred');
 
-
     // скільки пікселів прокрутили
     const scrollY = window.scrollY;
 
